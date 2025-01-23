@@ -17,7 +17,7 @@ document.getElementById('get-weather-btn').addEventListener('click', function ()
 
 // Function to get current weather data
 function getWeather(city) {
-    const apiKey = 'YOUR_API_KEY';  // Replace with your OpenWeather API key
+    const apiKey = '2da5cc7c625ea04134909b4dd8c9c1dd';  // Replace with your OpenWeather API key
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
 
     return fetch(url)
